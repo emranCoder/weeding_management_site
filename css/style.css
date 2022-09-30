@@ -1,0 +1,446 @@
+@font-face {
+font-family: "Cormorant-Regular";
+src: url(font/Cormorant-Regular.otf);
+
+}
+@font-face {
+font-family: "CormorantInfant-Light";
+src: url(font/CormorantInfant-Light.otf);
+
+}
+@font-face {
+font-family: "Cormorant-Light";
+src: url(font/Cormorant-Light.otf);
+
+}
+@font-face {
+font-family: "Cormorant-Bold";
+src: url(font/Cormorant-Bold.otf);
+
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: Cormorant-Regular;
+	font-size: 14px;
+	line-height: 1.7s;
+	font-weight: 400;
+	text-rendering: optimizeLegibility;
+	color: #212529;
+}
+
+img {
+	width: 100%;
+}
+
+.menu-nav {
+	position: absolute;
+	top: -1%;
+	width: 100%;
+	font-family: Open Sans;
+	background-color: transparent !important;
+}
+
+.menu {
+	display: flex;
+	margin-left: 270px;
+	padding-top: 8px;
+}
+
+nav .menu li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 20px 10px 20px;
+}
+
+nav .menu li a {
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	color: white;
+}
+nav .menu li:hover a {
+	color: #8bb8c1;
+} 
+
+.carousel-control-next {
+    height: 263px;
+    top: 30%;
+}
+
+.slider-img-section {
+	position: relative;
+}
+
+.logo {
+	float: left;
+	margin-left: 50px;
+}
+
+.logo img{
+	width: 120px;
+
+}
+.w-100 {
+	opacity: 80%;
+	width: 100%;
+	height: 660px;
+}
+
+.carousel-item {
+	background-color: black;
+}
+
+.carousel-caption {
+	top: 0;
+	margin-top: 220px;
+	z-index: 1;
+}
+
+.carousel-caption h5 {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.carousel-caption p {
+	font-size: 18px;
+	font-family: Open Sans;
+	letter-spacing: 0.1em;
+}
+.main-header {
+	position: absolute;
+}
+
+.badge {
+    position: absolute;
+    width: 120px;
+    height: 45px;
+    font-size: 15px;
+    font-family: Open Sans;
+    margin-top: 35px;
+    padding: 15px;
+    border: 2px solid #8bb8c1;
+    background-color: #8bb8c1;
+    text-align: center;
+    bottom: 36%;
+    right: 44%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.badge:hover {
+	background-color: transparent;
+}
+
+
+.section-holder {
+	margin: 70px 0px;
+}
+
+
+.section-holder h2 {
+	font-size: 35px;
+	line-height: 1.2em;
+	font-family: Cormorant-Bold;
+}
+
+.section-holder p {
+	font-size: 16px;
+	color: #858585;
+	font-family: Open Sans;
+	margin-top: 30px;
+	line-height: 1.7;
+}
+
+.album-title {
+	text-align: center;
+	margin: 20px 0px;
+}
+.album-title a {
+	color: #212529;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.album-title h5 {
+	font-size: 25px;
+	font-family: Cormorant-Bold;
+	transition: 0.3s;
+}
+
+.album-title p{
+	font-family: Open Sans;
+	font-size: 14px;
+	color: #858585;
+	text-transform: uppercase;
+	transition: 0.3s;
+	font-weight: 500;
+}
+
+.album-title h5:hover{
+	color: #8bb8c1;
+}
+.album-title p:hover{
+	color: #8bb8c1;
+}
+
+.album-size {
+    width: 235px;
+    display: inline-block;
+    margin: 0px 0px 10px 10px;
+    position: absolute;
+    top: 0;
+    margin-left: 230px;
+}
+
+.port-image {
+	background: #8bb8c1;
+	background-image:url(image/plus.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.album-size img {
+	transition: all 0.6s;
+}
+
+.album-size img:hover {
+	opacity: 0.4;	
+}
+.lb-close {
+    top: -36px;
+    position: absolute;
+    right: 40px;
+}
+.lb-caption {
+	font-size: 18px !important;
+}
+
+.album-size:nth-child(1){
+	margin-left: 0;
+	left: 0;
+}
+
+.album-size:nth-child(3){
+	margin-left: 490px;
+	left: 0;
+}
+.album-size:nth-child(4){
+	margin-left: 720px;
+}
+.album-size:nth-child(5){
+	left: 0;
+	margin-top: 280px;
+	margin-left: 0;
+}
+.album-size:nth-child(6){
+	margin-top: 400px;
+	margin-left: 230px;
+}
+
+.album-size:nth-child(7){
+	margin-top: 300px;
+	margin-left: 480px;
+}
+
+.album-size:nth-child(8){
+	margin-top: 400px;
+	margin-left: 720px;
+}
+.bride-section {
+	text-align: center;
+	background-image:linear-gradient(to right,#00000075,#00000075),url(image/12.jpg);
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 730px;
+	height: 355px;
+}
+
+.bride-bg-img  {
+	margin: 110px 180px;
+	color: white;
+}
+
+.bride-bg-img h4 {
+	font-style: italic;
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+}
+.bride-bg-img p {
+	font-family: Open Sans;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+/*Blog CSS*/
+.blog-img {
+	display: inline-block;
+	width: 300px;
+	height: 545px;
+	margin-top: 50px;
+}
+.blog-img:nth-child(2) {
+	margin: 0px 20px;
+}
+
+
+.blog-img-title  {
+	text-align: center;
+	margin-top: 50px;
+}
+.blog-img-title a {
+	text-transform: none;
+	font-style: normal;
+	text-decoration: none;
+	text-decoration-color: currentColor;
+	color: #212529;
+	transition: 0.3s;
+}
+.blog-img-title a span {
+	color: #454545;
+	transition: 0.3s;
+}
+.color-hover {
+	color: #454545 !important;
+	transition: 0.3s;
+}
+
+.blog-img-title h5{
+	font-size: 25px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.blog-img-title h6 {
+	font-size: 13px;
+	font-family: Open Sans; 
+	font-weight: bold;
+	color: #454545;
+	transition: 0.3s;
+	margin-top: 15px;
+}
+
+.blog-img-title p {
+	font-size: 16px;
+	color: #858585;
+	margin-top: 20px;
+}
+
+.blog-img-title span:before {
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	margin: 0 8px;
+	margin-bottom: 0px;
+	margin-bottom: 2px;
+	content: '';
+	vertical-align: middle;
+	background: #8bb8c1;
+	border-radius: 99em;
+
+}
+.blog-img-title h5:hover{
+	color: #8bb8c1;
+}
+.blog-img-title h6 span:hover{
+	color: #8bb8c1;
+}
+.color-hover:hover{
+	color: #8bb8c1 !important;
+}
+
+.blog-width {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.contacs-section {
+	width: 100%;
+	background-color: #acdae2;
+	text-align: center;
+	height: 180px;
+}
+
+.contacs-section h3{
+	font-size: 25px;
+	font-weight: bold;
+	width: 500px;
+	margin: 60px 0px 50px 0px;
+}
+
+.contact-button {
+	right: 13%;
+	bottom: 30%;
+	background: #221e1e;
+	border-color: #221e1e;
+	padding: 17px;
+	text-transform: uppercase;
+	width: 150px;
+	height: 52px;
+}
+
+.contact-button:hover {
+	color: #333;
+}
+
+footer {
+	background-color: #151515;
+	text-align: center;
+	color: white;
+}
+
+.footer-title {
+	width: 300px;
+	display: inline-block;
+	margin: 70px 0px 20px 3px;
+}
+
+.footer-title h4{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 28px;
+}
+
+
+.footer-title p{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #c8c8c8;
+	font-weight: 100;
+	margin-top: 30px;
+	width: 290px;
+}
+.footer-title .ul {
+	margin-top: 3px;
+}
+
+
+.footer-title .ul  a {
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #c8c8c8;
+	width: 290px;
+}
+.copyright {
+padding: 25px 0px 30px 0px;
+justify-content: center;
+display: flex;
+}
+.copyright h3{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #c8c8c8;
+	font-weight: 100;
+	margin-top: 30px;
+	width: 290px;
+	text-align: center;
+}
